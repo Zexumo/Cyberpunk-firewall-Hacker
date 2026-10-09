@@ -1,13 +1,13 @@
 fun main() {
     val senhaCorreta = "N3tw0rk_2077"
     val forcaSenha = 85
-    val ramDisponivel = 96
+    val ramDisponivel = 65
 
     var tentativas = 0
     val maxTentativas = 3
     var acessoConcedido = false
 
-    println("=== 🔥 FIREWALL CORPORATIVO — NIGHT CITY NETWORKS 🔥 ===")
+    println("===  FIREWALL CORPORATIVO — NIGHT CITY NETWORKS  ===")
     println("Sistema de segurança ativado. Tentativas restantes: $maxTentativas")
     println("Deck do hacker — RAM disponível: ${ramDisponivel}GB\n")
 
@@ -32,7 +32,7 @@ fun main() {
                 println("🔒 Acesso PARCIAL — Dados criptografados demais para extrair.")
             } else {
                 println("⚡ Recursos suficientes! Decodificando protocolo...")
-                println("✅ ACESSO CONCEDIDO — Bem-vindo à rede corporativa!")
+                println("✅ ACESSO CONCEDIDO — Bem-vindo à rede da Arasaka!")
                 acessoConcedido = true
             }
         } else {
@@ -44,6 +44,6 @@ fun main() {
     
     if (!acessoConcedido) {
         println("🚫 BLOQUEADO — Limite de $maxTentativas tentativas atingido.")
-        println("🔔 Alerta enviado para a segurança corporativa. Fuga imediata recomendada!")
+        println("🔔 Alerta enviado para a segurança corporativa. Fuja se for possivel!")
     }
 }
